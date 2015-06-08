@@ -6,6 +6,7 @@
 .fontu{ text-decoration:underline}
 .gray{color:#adadad;}
 .red{ color: #f35455;}
+.black{color:#000;}
 td{text-align: center}
 .mar-fr15{margin-right:15px;}
 .mar-fl15{margin-left:15px;}
@@ -13,6 +14,9 @@ td{text-align: center}
 .font14{ font-size: 14px;}
 .ulbor{ border-right: 1px solid #e5e5e5;}
 .topmar70 {  margin-top: 70px;  }
+.topmar50 {  margin-top: 50px;  }
+.topmar13{  margin-top: 13px; }
+.nobor{ border: 0;}
 .content {height: auto !important;  margin: 15px auto 0;  min-height: 200px !important;  min-width: 1270px;  /*overflow: hidden;*/  width: calc(100% - 100px);  }
 .contentheader {height: auto !important;   overflow: hidden;  width: calc(100% - 100px);margin:0 auto;  }
 /*头部开始*/
@@ -124,7 +128,7 @@ header{height:87px; border-bottom: 2px solid #09a3dc;margin-bottom: 15px;}
     float: left; width: 24px; height: 24px; left:153px; top:14px; overflow: hidden; cursor: pointer; background: url("../img/sar.png") no-repeat; position: absolute;
 }
 .filtrationResultRightAddTask{float: left; overflow: hidden;margin: 8px 10px 0px 0px; cursor: pointer; background: #09a3dc; color:#fff;width:100px;height:25px;border-radius: 3px; text-align: center; line-height: 25px;}
-.title {border-left: 6px solid rgb(52, 116, 177);height: 22px;line-height: 22px;margin: 20px 0 0 26px;  overflow: hidden;  text-align: left;  text-indent: 1em;  width: 97%; font-size: 16px; position: relative;z-index:10;}
+.title {border-left: 6px solid rgb(52, 116, 177);height: 22px;line-height: 22px;margin: 20px 0 0 26px; /* overflow: hidden;*/  text-align: left;  text-indent: 1em;  width: 97%; font-size: 16px; position: relative;z-index:10;}
 
 
 /*右侧title内容结束*/
@@ -299,13 +303,13 @@ input[type="text"] {  border: 1px solid #aaa;  color: #c7c7c7;  float: left;  he
 .width16{width:50px;position: absolute;left:260px;top:10px}
 .width17{width:350px;position: absolute;left:70px;top:0px}
 .table12 span {  float: left;  height: 23px;  line-height: 23px;  margin:3px 0 0 7px;  }
-.table12 input[type="checkbox"], .table12 input[type="radio"] {margin:18px 0 0 -25px}
+.table12 input[type="checkbox"], .table12 input[type="radio"]{margin:18px 0 0 -25px}
 .table12 label{ float: left;margin:0 30px 0 20px;}
 .table12 .text1{ display: block;}
 .width70 [type="text"] {margin-top:10px;}
 .width70 span {  float: left;  height: 23px;  line-height: 23px;  margin:12px 0 0 7px;  }
 .table12 textarea{width:94%;margin:0 auto;}
-.submit{  width: 100px; height: 45px; margin: 30px 0 80px 4%; background-color: rgb(255,99,100);  font-size: 18px; line-height: 45px; text-align: center; color: rgb(255,255,255);  border-radius: 5px; cursor: pointer;  }
+.submit{  width: 100px; height: 45px; margin: 30px 0 80px 4%; background-color: rgb(255,99,100);  font-size: 18px; line-height: 45px; text-align: center; color: rgb(255,255,255);  border-radius: 5px; cursor: pointer; float: left }
 .submit:hover{background-color: #33abe8;}
 .btn-group span{ float: none;  height: 0px;  line-height: 0px;  margin:0; }
 .table12 .btn-group{ float: left;margin:0 10px;}
@@ -323,6 +327,34 @@ input[type="text"] {  border: 1px solid #aaa;  color: #c7c7c7;  float: left;  he
 .table14 .radio input[type="radio"] {margin:5px 0 0 -20px;}
 .timeplusbox input[type="text"]{border:none;color: #2f801f;}
 .form_datetime1{ text-decoration: underline}
+.td08 input[type="text"]{margin-top:12px;width:50px;}
+.td08 .checkbox08{width:150px;margin-left:15px;display: block;padding-left:0;text-align: left;}
+.td08 .checkbox08 input[type="checkbox"],.td08_1 .checkbox08_1 input[type="checkbox"]{ position: relative;margin:18px 0 0 0px;}
+.td08_1 .checkbox08_1{width:120px;margin-left:15px;display: block;padding-left:0;text-align: left;}
+
+/*40工作流程设置开始*/
+.bigmenu1 a{width:90px; height:40px; line-height: 40px; background-color: #f35455; color: #fff; font-size: 18px; position: absolute;border-radius: 2px; text-align: center;top:-10px;right:0; display: block;text-indent:0;}
+.td40 label{float: none; margin:0 auto;}
+.td40_1 input[type="text"]{margin-top:12px;width:30px;}
+.table40 i{float: right;  height: 23px;  line-height: 23px;  margin:4px 13px 0 0;}
+.trb{ font-weight: 700;}
+.table40 .tooltip-inner{background: #f6f6f6; color: #f35455; border: 1px solid #d1d1d1; line-height: 32px; z-index: 9999;padding:0 20px;}
+/*40工作流程设置结束*/
+/*46开始*/
+.table46 input[type="checkbox"] {margin:18px 0 0 0}
+.table46_1 td,.table46_1{border: none;}
+.table46_1 .alatd{border: 1px solid #e5e5e5;}
+.table46_1 input[type="text"]{ color:#09a3dc; margin:0 10px 0 0;}
+.t46menu a{width:100%;height:25px; line-height: 25px; background: #8f8f8f; color: #fff; display: block}
+.table46_1 .tooltip-inner{background: #f6f6f6; color: #1b1b1b; border: 1px solid #d1d1d1; line-height: 32px; z-index: 9999;padding:0 20px;}
+.pageBox1{height: 24px;  overflow: hidden;width: 80px;}
+.pageBox1 li{ float: left; text-align: center; color: #aaaaaa;margin: 0 0 0 10px; cursor:pointer;width: 22px; height: 22px!important; line-height: 22px!important;border: 1px solid rgb(201,201,201); border-radius:12px; background: rgb(255,255,255);}
+.bottompageBox{position: relative; right:0px;margin: 15px 0;}
+.bottompageBox_mar{margin:0 0 0 10px;}
+.add{width:50px;height:50px; line-height: 50px; cursor: pointer; text-align: center;margin-top:20px;margin-left:3%;}
+.add .tooltip-inner{background: #f6f6f6; color: #2f801f; border: 1px solid #d1d1d1; line-height: 32px; z-index: 9999;padding:0 20px;}
+.td40_1 span{float: left;  height: 23px;  line-height: 23px;  margin: 13px 0 0 7px;}
+/*46结束*/
 
 .table-condensed .active{ background: #09a3dc;}
 /*12出图用印审批表代码结束*/
